@@ -10,9 +10,10 @@ module.exports = function getTimeForEducation(
     config = {family: 4}
     ) {
       let learningTime;
-        if (knowsProgramming === true){
+      if (knowsProgramming === true) {
         learningTime = 800;
-      } else {
+      }
+      else {
         learningTime = 1300;
       }
       let weeks = learningTime/config[focus];
